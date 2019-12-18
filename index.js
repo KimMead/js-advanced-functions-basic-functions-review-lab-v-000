@@ -19,5 +19,5 @@ function actionApplyer(starting_int, function_array){
   function_array.forEach(func => {
     int = func(int)
   });
-  return int 
+  return int
 }
