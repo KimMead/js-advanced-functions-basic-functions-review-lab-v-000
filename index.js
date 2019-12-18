@@ -8,8 +8,8 @@ function mondayWork(activity = 'go to the office'){
 }
 
 function wrapAdjective(flair = '*'){
-  let char = flair
-  return function (noun = 'special'){
-    return 'You are ${char}${noun}${char}!'
-  }
+    let char = flair
+    return function (noun = 'special'){
+        return `You are ${char}${noun}${char}!`
+    }
 }
