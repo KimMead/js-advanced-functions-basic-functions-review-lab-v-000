@@ -2,5 +2,3 @@
 function saturdayFun() {
   "This Saturday, I want to roller-skate!";
 }
-
-
